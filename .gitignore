@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Conda / venv
+.env
+.venv/
+env/
+
+# Project data — never commit
+data/
+!data/.gitkeep
+outputs/
+!outputs/.gitkeep
+*.zip
+*.csv.gz
+
+# Logs
+*.log
+logs/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Postgres dumps
+*.sql.bak
+*.dump
+
+# Notebooks (excluded for now)
+notebooks/
